@@ -1,4 +1,4 @@
 #!/usr/bin/python
 
 
-print "testing git webhooks pushing changes from development"
+print "GUI testing git webhooks pushing changes from development "
