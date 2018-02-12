@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="product_normal_form_view_inherit_cont_product_ext" model="ir.ui.view">
+        <field name="name">product.normal.form.view.inherit.cont.product.ext</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+			<notebook>
+			    <page string="Continuant" name="continuant">
+			        <group>
+			            <group>
+			                <field name="ext_tax_code"/>
+			                <field name="inc_rec"/>
+			                <field name="sales_tax_status"/>
+			                <field name="description"/>
+			            </group>
+			        </group>
+			    </page>
+			</notebook>
+        </field>
+    </record>
+</odoo>
