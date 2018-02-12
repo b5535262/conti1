@@ -1,0 +1,46 @@
+<odoo>
+    <!--Extended Form view of Partner  -->
+    <record id="res_partner_view_extended" model="ir.ui.view">
+        <field name="name">res.partner.formview.extended</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[last()]" position="after">
+                <page string="Other" name="other">
+                    <group>
+	                    <group name='Accounting' string="Accounting">
+	                        <field name="account_name"/>
+	                        <field name="owner_id"/>
+	                        <field name="record_type"/>
+	                        <field name="is_hold_account"/>
+                            <field name="master_acc_id"/>
+                            <field name="parent_acc_id"/>
+                            <field name="acc_manager_id"/>
+                            <field name="former_account_name"/>
+	                    </group>
+	                    <group name="Credit limit" string="Credit limit">
+	                        <field name="credit_limit"/>
+	                        <field name="credit_limit_hierarchy"/>
+	                        <field name="credit_risk"/>
+	                        <field name="cumulative_credit_val"/>
+	                    </group>
+	                    <group name="Status" string="Status">
+	                       <field name="collector_status"/>
+	                       <field name="cust_status"/>
+	                       <field name="sales_tax_status"/>
+	                    </group>
+	                    <group name="Other" string='Other'>
+	                        <field name="assigned_collector_id"/>
+	                        <field name="cust_tier"/>
+	                        <field name="entity_code"/>
+	                        <field name="invoice_del_method"/>
+	                        <field name="oem_type"/>
+	                        <field name="duns_no"/>
+	                        <field name="acc_trading_curr"/>
+	                    </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

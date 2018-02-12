@@ -1,0 +1,22 @@
+id,active,full_name,name
+base.res_partner_industry_1,True,APPAREL,Apparel
+base.res_partner_industry_2,True,BANKING,Banking
+base.res_partner_industry_3,True,BIOTECHNOLOGY,Biotechnology
+base.res_partner_industry_4,True,CHEMICALS,Chemicals
+base.res_partner_industry_5,True,COMMUNICATION,Communication
+base.res_partner_industry_6,True,CONSULTING,Consulting
+base.res_partner_industry_7,True,ELECTRONICS,Electronics
+base.res_partner_industry_8,True,ENGINEERING,Engineering
+base.res_partner_industry_9,True,ENVIRONMENTAL,Environmental
+base.res_partner_industry_10,True,GOVERNMENT,Government
+base.res_partner_industry_11,True,HOSPITALITY,Hospitality
+base.res_partner_industry_12,True,INSURANCE,Insurance
+base.res_partner_industry_13,True,MACHINERY,Machinery
+base.res_partner_industry_14,True,MEDIA,Media
+base.res_partner_industry_15,True,NOT FOR PROFIT,Not for Profit
+base.res_partner_industry_16,True,RECREATION,Recreation
+base.res_partner_industry_17,True,RETAIL,Retail
+base.res_partner_industry_18,True,SHIPPING,Shipping
+base.res_partner_industry_19,True,TECHNOLOGY,Technology
+base.res_partner_industry_20,True,TELECOMMUNICATIONS,Telecommunications
+base.res_partner_industry_21,True,UTILITIES,Utilities
