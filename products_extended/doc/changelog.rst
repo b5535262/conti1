@@ -1,5 +1,5 @@
 ===============================================================================
- Version Change Log (cont_product_ext)
+ Version Change Log (products_extended)
 ===============================================================================
 1.1 --> Ankit Gandhi
     * Added fields as per new changes.
