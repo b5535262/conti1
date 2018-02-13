@@ -2,11 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': "Continuant Product Extenstion",
+    'name': "Products Extended",
     'version': "1.1",
     'category': "sales",
     'sequence': 2,
-    'summary': "Extend product",
+    'summary': "Products",
     'description': """""",
     'author': "Bista solutions Pvt Ltd",
     'website': "https://www.bistasolutions.com",
@@ -16,7 +16,7 @@
     ],
     # data files always loaded at installation
     'data': [
-        'views/inherited_product_views.xml',
+        'views/product_views.xml',
     ],
     # data files containing optionally loaded demonstration data
     'demo': [
