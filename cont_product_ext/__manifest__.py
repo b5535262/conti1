@@ -3,7 +3,7 @@
 
 {
     'name': "Continuant Product Extenstion",
-    'version': "1.0",
+    'version': "1.1",
     'category': "sales",
     'sequence': 2,
     'summary': "Extend product",
