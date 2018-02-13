@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_entity_code_usr,access_entity_code_usr,model_entity_code,sales_team.group_sale_salesman,1,0,0,0
+access_entity_code_mngr,access_entity_code_mngr,model_entity_code,sales_team.group_sale_manager,1,1,1,1
+access_inv_del_method_user,access_inv_del_method_user,model_inv_del_method,sales_team.group_sale_salesman,1,0,0,0
+access_inv_del_method_mngr,access_inv_del_method_mngr,model_inv_del_method,sales_team.group_sale_manager,1,1,1,1
+access_primary_oem_usr,access_primary_oem_usr,model_primary_oem,sales_team.group_sale_salesman,1,0,0,0
+access_primary_oem_mngr,access_primary_oem_mngr,model_primary_oem,sales_team.group_sale_manager,1,1,1,1
+access_collector_status_usr,access_collector_status_usr,model_collector_status,sales_team.group_sale_salesman,1,0,0,0
+access_collector_status_mngr,access_collector_status_mngr,model_collector_status,sales_team.group_sale_manager,1,1,1,1
+
+
+
