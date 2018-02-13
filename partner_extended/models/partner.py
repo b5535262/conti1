@@ -9,9 +9,9 @@ class EntityCode(models.Model):
     code = fields.Char('Code')
 
 
-class InvDelMethod(models.Model):
+class InvDeliveryMethod(models.Model):
 
-    _name = 'inv.del.method'
+    _name = 'inv.delivery.method'
 
     name = fields.Char('Name')
     code = fields.Char('Code')
@@ -54,7 +54,7 @@ class ResPartner(models.Model):
     duns_no = fields.Text('D-U-N-S Number')
     entity_code_id = fields.Many2one('entity.code', 'Entity / Use Code')
     is_hold_account = fields.Boolean('Hold Account')
-    invoice_del_method_id = fields.Many2one('inv.del.method', 'Preferred \
+    invoice_del_method_id = fields.Many2one('inv.delivery.method', 'Preferred \
                             Invoice Delivery Method')
     oem_type_id = fields.Many2one('primary.oem', 'Primary OEM')
     acc_manager_id = fields.Many2one('res.users', 'Strategic Account Manager')

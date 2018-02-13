@@ -2,7 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'Continuant Partner Extended',
+    'name': 'Partner Extended',
     'version': '1.1',
     'category': 'Sales',
     'sequence': 1,
@@ -17,7 +17,7 @@
     'data': [
         'data/res.partner.industry.csv',
         'security/ir.model.access.csv',
-        'views/partner_ex_view.xml',
+        'views/partner_view.xml',
     ],
     'installable': True,
     'application': True,

@@ -41,8 +41,8 @@
 
 	<!-- Tree view of Invoice Delivery Method -->
 		<record id="view_inv_del_method_tree" model="ir.ui.view">
-			<field name="name">view.inv.del.method.tree</field>
-			<field name="model">inv.del.method</field>
+			<field name="name">view.inv.delivery.method.tree</field>
+			<field name="model">inv.delivery.method</field>
 			<field name="arch" type="xml">
 				<tree editable="top">
 					<field name="name" required="1"/>
@@ -53,8 +53,8 @@
 
     <!-- Form view of Invoice Delivery Method -->
         <record id="view_inv_del_method_form" model="ir.ui.view">
-            <field name="name">view.inv.del.method.form</field>
-            <field name="model">inv.del.method</field>
+            <field name="name">view.inv.delivery.method.form</field>
+            <field name="model">inv.delivery.method</field>
             <field name="arch" type="xml">
                 <form>
                     <group col="4">
@@ -68,7 +68,7 @@
 	<!-- Action of Invoice Delivery Method -->
 		<record id="inv_del_method_action" model="ir.actions.act_window">
 			<field name="name">Invoice Delivery Method</field>
-			<field name="res_model">inv.del.method</field>
+			<field name="res_model">inv.delivery.method</field>
 			<field name="view_type">form</field>
 			<field name="view_mode">tree</field>
 		</record>
