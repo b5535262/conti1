@@ -12,7 +12,7 @@
                 <page string="Customer Locations">
                     <group>
                         <group>
-                            <field name="child_ids" widget="many2many_tags" domain="[('parent_id','=',partner_id)]"/>
+                            <field name="child_ids" widget="many2many_tags" domain="[('parent_id','=',partner_id)]" options="{'no_create_edit': True}"/>
                         </group>
                     </group>
                 </page>

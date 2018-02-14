@@ -44,8 +44,11 @@ class SaleCustomerWizard(models.TransientModel):
 
     @api.multi
     def assign_equaly_qty(self):
-        return True
+        print("*******assign_equaly_qty*******")
 
+    @api.multi
+    def assign_remaining_qty(self):
+        print("^^^^^^assign_remaining_qty^^^^^^^")
 
 class SaleCustomerLine(models.TransientModel):
     _name = "sale.customer.line"
