@@ -50,6 +50,7 @@ class SaleCustomerWizard(models.TransientModel):
     def assign_remaining_qty(self):
         print("^^^^^^assign_remaining_qty^^^^^^^")
 
+
 class SaleCustomerLine(models.TransientModel):
     _name = "sale.customer.line"
 
